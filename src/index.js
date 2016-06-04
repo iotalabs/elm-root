@@ -2,6 +2,8 @@
 
 import './styles/about-page.css';
 import './styles/styles.scss';
-import './hello';
+import hello from './hello';
+import Elm from './elm/Main.elm';
 
-console.log('Hello');
+hello('from index');
+var app = Elm.Main.embed(document.getElementById('main'));

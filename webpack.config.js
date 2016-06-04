@@ -32,6 +32,10 @@ module.exports = {
       test: /\.scss$/,
       include: src,
       loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader")
+    }, {
+      test: /\.elm$/,
+      include: src,
+      loader: 'elm-webpack'
     }]
   },
   resolve: {
