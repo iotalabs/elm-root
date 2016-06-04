@@ -2,7 +2,7 @@
 
 import './styles/about-page.css';
 import './styles/styles.scss';
-import hello from './hello';
+import hello from './js/hello';
 import Elm from './elm/Main.elm';
 
 hello('from index');

@@ -20,10 +20,15 @@ module.exports = {
     new ExtractTextPlugin('style.css')
   ],
   module: {
+    preLoaders: [{
+      test: /\.js$/,
+      include: src,
+      loader: 'jshint-loader'
+    }],
     loaders: [{
       test: /\.js$/,
       include: src,
-      loader: 'babel-loader'
+      loader: "babel-loader"
     }, {
       test: /\.css$/,
       include: src,
