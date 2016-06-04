@@ -1,0 +1,34 @@
+{
+  "name": "elm-root",
+  "version": "1.0.0",
+  "description": "'Elm root is a elm starter project'",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotalabs/elm-root.git"
+  },
+  "keywords": [
+    "elm",
+    "starter"
+  ],
+  "author": "AlexanderChen1989",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iotalabs/elm-root/issues"
+  },
+  "homepage": "https://github.com/iotalabs/elm-root#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.7.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}
